@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#071b3a">
+<meta name="description" content="Bersih.in — layanan laundry praktis, bersih, wangi, dengan antar jemput.">
+<title>Bersih.in — Pakaian Bersih, Hidup Lebih Nyaman</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style>
+:root{--navy:#071b3a;--navy2:#0b2b56;--blue:#1769aa;--sky:#dff2ff;--pale:#f3f8ff;--white:#fff;--ink:#10243e;--muted:#64748b;--line:#e3ebf5;--purple:#8b7cf6;--shadow:0 18px 50px rgba(7,27,58,.10);--radius:22px}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;scroll-padding-top:88px}body{font-family:'DM Sans',sans-serif;color:var(--ink);background:#fff;line-height:1.65}a{text-decoration:none;color:inherit}button,input,select,textarea{font:inherit}.container{width:min(1160px,92%);margin:auto}.section{padding:94px 0}.section.soft{background:var(--pale)}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--blue);font-weight:800;font-size:.78rem;letter-spacing:1.3px;text-transform:uppercase;background:#e8f4ff;padding:8px 13px;border-radius:99px}.section-head{text-align:center;max-width:680px;margin:0 auto 42px}.section-head h2{font:800 clamp(1.9rem,4vw,2.8rem)/1.18 'Plus Jakarta Sans';color:var(--navy);margin:16px 0 12px}.section-head p{color:var(--muted)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:12px;padding:14px 21px;font-weight:800;cursor:pointer;transition:.25s}.btn-primary{background:var(--navy);color:#fff;box-shadow:0 10px 24px #071b3a2b}.btn-primary:hover{background:var(--blue);transform:translateY(-3px)}.btn-light{background:#fff;color:var(--navy);border:1px solid var(--line)}.btn-light:hover{border-color:var(--blue);transform:translateY(-3px)}.btn-small{padding:10px 14px;font-size:.88rem}.navbar{position:sticky;top:0;z-index:1000;background:#ffffffed;backdrop-filter:blur(14px);border-bottom:1px solid #e8eef6}.nav-inner{height:78px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;gap:10px;font:800 1.45rem 'Plus Jakarta Sans';color:var(--navy);white-space:nowrap}.brand-mark{width:39px;height:39px;border-radius:13px;background:linear-gradient(135deg,var(--navy),#2479bd);display:grid;place-items:center;color:white;font-size:1.05rem;box-shadow:0 7px 18px #0b2b5633}.nav-links{display:flex;align-items:center;gap:25px;font-size:.9rem;font-weight:700;color:#40536d}.nav-links a:hover{color:var(--blue)}.nav-cta{white-space:nowrap}.menu-toggle{display:none;background:none;border:0;color:var(--navy);font-size:1.4rem}.hero{background:radial-gradient(circle at 83% 20%,#d9efff 0,transparent 32%),linear-gradient(115deg,#f7fbff 0%,#eaf5ff 60%,#f5f3ff 100%);overflow:hidden;padding:72px 0 60px;position:relative}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:38px}.hero h1{font:800 clamp(2.5rem,5.4vw,4.35rem)/1.1 'Plus Jakarta Sans';letter-spacing:-2px;color:var(--navy);margin:19px 0}.hero h1 span{color:var(--blue)}.hero-copy{font-size:1.06rem;color:#52647c;max-width:590px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:27px 0 30px}.hero-points{display:flex;gap:18px;flex-wrap:wrap;color:#38506d;font-size:.88rem;font-weight:700}.hero-points span{display:flex;align-items:center;gap:7px}.hero-points i{color:#1983c7}.hero-art{min-height:410px;position:relative;display:grid;place-items:center}.laundry-visual{width:min(430px,100%);height:370px;border-radius:42% 58% 53% 47%/46% 42% 58% 54%;background:linear-gradient(145deg,#c6e9ff,#e9e6ff);display:grid;place-items:center;position:relative;transform:rotate(-3deg)}.washer{width:225px;height:285px;background:linear-gradient(145deg,#fff,#dce7f2);border:9px solid #fff;border-radius:28px;box-shadow:0 28px 55px #0b2b5628;transform:rotate(3deg);position:relative;padding:18px}.washer-top{height:23px;display:flex;justify-content:space-between;align-items:center;color:#8da2b8;font-size:10px}.washer-screen{height:14px;width:44px;border-radius:5px;background:#d5e6f5}.washer-door{width:148px;height:148px;border-radius:50%;margin:17px auto 0;background:radial-gradient(circle at 40% 35%,#c6eaff 0 18%,#4d91bd 20% 25%,#183f68 27% 47%,#dceaf4 49% 55%,#9db5c9 57% 64%,#eef5fb 66%);border:9px solid #c4d5e5;box-shadow:inset 0 0 0 5px #fff}.washer-base{height:9px;width:80%;margin:14px auto;background:#d5e2ee;border-radius:10px}.float-card{position:absolute;background:#fff;padding:13px 16px;border-radius:16px;box-shadow:var(--shadow);display:flex;align-items:center;gap:11px;font-weight:800;color:var(--navy);font-size:.88rem;transform:rotate(3deg)}.float-card i{width:37px;height:37px;border-radius:12px;display:grid;place-items:center;background:#e8f5ff;color:#1674b7;font-size:1.1rem}.float-one{top:35px;left:0}.float-two{right:-4px;bottom:36px}.bubble{position:absolute;border-radius:50%;background:#fff9;border:1px solid #fff;box-shadow:0 10px 25px #0b2b5610}.bubble.b1{width:24px;height:24px;top:70px;right:55px}.bubble.b2{width:13px;height:13px;bottom:78px;left:20px}.trust-strip{background:var(--navy);color:white;padding:20px 0}.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.trust-item{display:flex;align-items:center;justify-content:center;gap:11px;font-weight:700;font-size:.9rem}.trust-item i{color:#85d4ff;font-size:1.25rem}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:19px}.service-card{border:1px solid var(--line);border-radius:19px;padding:23px;background:#fff;transition:.25s;display:flex;flex-direction:column;min-height:225px}.service-card:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:#b9dcf5}.service-icon{width:51px;height:51px;border-radius:15px;background:#eaf5ff;color:var(--blue);display:grid;place-items:center;font-size:1.35rem;margin-bottom:16px}.service-card h3{font:800 1.05rem 'Plus Jakarta Sans';color:var(--navy);margin-bottom:7px}.service-card p{color:var(--muted);font-size:.9rem;flex:1;margin-bottom:17px}.service-card .btn{align-self:flex-start}.filter-row{display:flex;justify-content:center;gap:9px;flex-wrap:wrap;margin:-15px 0 30px}.filter-btn{border:1px solid var(--line);background:#fff;color:#52647c;padding:9px 16px;border-radius:99px;font-weight:700;cursor:pointer}.filter-btn.active,.filter-btn:hover{background:var(--navy);color:#fff;border-color:var(--navy)}.price-wrap{background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 12px 36px #0b2b5609;margin-bottom:18px}.price-title{padding:18px 23px;background:#f1f7fd;display:flex;align-items:center;justify-content:space-between;gap:10px}.price-title h3{font:800 1.05rem 'Plus Jakarta Sans';color:var(--navy)}.price-title span{font-size:.8rem;color:var(--blue);font-weight:800}.price-table{width:100%;border-collapse:collapse}.price-table th,.price-table td{text-align:left;padding:13px 23px;border-top:1px solid #edf1f6;font-size:.91rem}.price-table th{color:#718096;font-size:.78rem;text-transform:uppercase;letter-spacing:.5px}.price-table td:last-child{font-weight:800;color:var(--navy)}.price-note{color:var(--muted);font-size:.84rem;margin-top:15px}.booking-layout{display:grid;grid-template-columns:.75fr 1.25fr;gap:28px;align-items:start}.booking-info{background:var(--navy);color:#fff;border-radius:24px;padding:30px;position:sticky;top:105px}.booking-info h3{font:800 1.55rem 'Plus Jakarta Sans';margin:14px 0}.booking-info p{color:#c1d4e9}.booking-info ul{list-style:none;margin-top:25px;display:grid;gap:15px}.booking-info li{display:flex;gap:10px;align-items:flex-start;color:#e4effb}.booking-info li i{color:#8bd5ff;margin-top:5px}.booking-form{background:#fff;border:1px solid var(--line);border-radius:24px;padding:29px;box-shadow:var(--shadow)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:17px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-weight:800;font-size:.86rem;color:var(--navy)}.field input,.field select,.field textarea{width:100%;border:1px solid #dce5ef;border-radius:11px;padding:12px 13px;background:#fbfdff;outline:none;color:var(--ink);transition:.2s}.field input:focus,.field select:focus,.field textarea:focus{border-color:#3b91cc;box-shadow:0 0 0 3px #d9efff}.field textarea{min-height:85px;resize:vertical}.hint{font-size:.77rem;color:var(--muted)}.estimate{margin:20px 0;padding:17px 19px;border-radius:15px;background:#eff7ff;display:flex;justify-content:space-between;align-items:center;gap:10px}.estimate span{color:#52647c;font-size:.9rem;font-weight:700}.estimate strong{font:800 1.35rem 'Plus Jakarta Sans';color:var(--navy)}.review-box{display:none;background:#f7faff;border:1px solid #dbe9f7;border-radius:14px;padding:17px;margin:18px 0;font-size:.9rem}.review-box.show{display:block}.review-box h4{color:var(--navy);margin-bottom:9px}.review-box p{margin:4px 0;color:#52647c}.form-actions{display:flex;gap:10px;flex-wrap:wrap}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.step{background:#fff;border:1px solid var(--line);padding:24px;border-radius:19px;position:relative}.step-num{width:42px;height:42px;border-radius:13px;background:var(--navy);color:white;display:grid;place-items:center;font-weight:800;margin-bottom:18px}.step h3{font:800 1rem 'Plus Jakarta Sans';color:var(--navy);margin-bottom:7px}.step p{font-size:.88rem;color:var(--muted)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.about-art{background:linear-gradient(140deg,#e4f4ff,#eeebff);border-radius:28px;min-height:340px;display:grid;place-items:center;position:relative;overflow:hidden}.about-art .basket{font-size:8rem;color:#1769aa;filter:drop-shadow(0 15px 12px #0b2b5624)}.about-art:before,.about-art:after{content:"";position:absolute;border:2px solid #fff9;border-radius:50%;width:240px;height:240px}.about-art:after{width:310px;height:310px}.about-copy h2{font:800 clamp(1.9rem,4vw,2.7rem)/1.2 'Plus Jakarta Sans';color:var(--navy);margin:16px 0}.about-copy p{color:var(--muted);margin-bottom:18px}.about-points{display:grid;grid-template-columns:1fr 1fr;gap:12px}.about-points span{display:flex;gap:8px;align-items:center;font-weight:700;color:#38506d;font-size:.9rem}.about-points i{color:#1681bd}.testimonials{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.quote{padding:24px;border:1px solid var(--line);border-radius:19px;background:#fff}.stars{color:#f2ad38;letter-spacing:2px;margin-bottom:13px}.quote p{color:#53657d;font-size:.92rem;margin-bottom:17px}.person{display:flex;align-items:center;gap:11px}.avatar{width:39px;height:39px;border-radius:50%;display:grid;place-items:center;background:#e6f3ff;color:var(--blue);font-weight:800}.person strong{display:block;color:var(--navy);font-size:.88rem}.person small{color:#8795a8}.demo{font-size:.7rem;color:#8b7cf6;font-weight:800;margin-left:5px}.faq-list{max-width:820px;margin:auto;display:grid;gap:11px}.faq-item{border:1px solid var(--line);border-radius:14px;background:#fff;overflow:hidden}.faq-q{width:100%;border:0;background:none;padding:18px 20px;text-align:left;display:flex;justify-content:space-between;align-items:center;gap:15px;color:var(--navy);font-weight:800;cursor:pointer}.faq-q i{transition:.2s}.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;padding:0 20px;color:var(--muted);font-size:.92rem}.faq-item.open .faq-a{max-height:180px;padding:0 20px 18px}.faq-item.open .faq-q i{transform:rotate(180deg)}.contact-band{background:linear-gradient(110deg,var(--navy),#104b7c);color:#fff;border-radius:25px;padding:38px 42px;display:flex;justify-content:space-between;align-items:center;gap:20px}.contact-band h2{font:800 clamp(1.5rem,3vw,2.2rem) 'Plus Jakarta Sans';margin-bottom:7px}.contact-band p{color:#c7d9eb}.footer{background:#06152d;color:#d8e5f3;padding:60px 0 22px}.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1.2fr;gap:40px;padding-bottom:38px}.footer .brand{color:#fff;margin-bottom:15px}.footer p{color:#a9bdd4;font-size:.9rem;max-width:360px}.footer h4{color:#fff;margin-bottom:15px;font:800 1rem 'Plus Jakarta Sans'}.footer-links{display:grid;gap:9px;color:#b9cadd;font-size:.9rem}.footer-links a:hover{color:#fff}.footer-contact{display:grid;gap:12px;color:#b9cadd;font-size:.9rem}.footer-contact i{color:#8bd5ff;width:19px}.copyright{border-top:1px solid #ffffff1c;padding-top:19px;text-align:center;color:#8299b4;font-size:.82rem}.wa-float{position:fixed;right:23px;bottom:23px;width:58px;height:58px;border-radius:50%;background:#20c76a;color:#fff;display:grid;place-items:center;font-size:1.8rem;box-shadow:0 12px 28px #0b6b3b55;z-index:900;transition:.2s}.wa-float:hover{transform:translateY(-5px) scale(1.04)}.toast{position:fixed;left:50%;bottom:25px;transform:translate(-50%,20px);background:var(--navy);color:white;padding:12px 18px;border-radius:12px;opacity:0;pointer-events:none;transition:.25s;z-index:2000;box-shadow:var(--shadow);font-size:.9rem}.toast.show{opacity:1;transform:translate(-50%,0)}.reveal{opacity:0;transform:translateY(22px);transition:opacity .65s,transform .65s}.reveal.visible{opacity:1;transform:none}
+@media(max-width:900px){.nav-links{gap:14px;font-size:.82rem}.hero-grid{gap:15px}.grid{grid-template-columns:repeat(2,1fr)}.booking-layout{grid-template-columns:1fr}.booking-info{position:static}.steps{grid-template-columns:repeat(2,1fr)}.about-grid{gap:30px}.testimonials{grid-template-columns:1fr 1fr}}
+@media(max-width:700px){.section{padding:70px 0}.nav-inner{height:68px}.menu-toggle{display:block}.nav-cta{display:none}.nav-links{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;padding:18px 5%;border-bottom:1px solid var(--line);box-shadow:0 15px 25px #071b3a12;flex-direction:column;align-items:flex-start}.nav-links.open{display:flex}.hero{padding:54px 0 42px}.hero-grid{grid-template-columns:1fr}.hero-art{min-height:320px;order:-1}.laundry-visual{height:300px;width:330px;max-width:95%}.washer{transform:scale(.84) rotate(3deg)}.float-one{left:0;top:15px}.float-two{right:0;bottom:12px}.hero h1{letter-spacing:-1.2px}.trust-grid{grid-template-columns:1fr 1fr;gap:18px}.trust-item{justify-content:flex-start;font-size:.82rem}.grid{grid-template-columns:1fr 1fr;gap:12px}.service-card{padding:17px;min-height:230px}.service-card h3{font-size:.95rem}.price-title{padding:15px}.price-table th,.price-table td{padding:11px 13px;font-size:.82rem}.booking-form{padding:20px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.steps{grid-template-columns:1fr 1fr}.about-grid{grid-template-columns:1fr}.about-art{min-height:250px;order:2}.testimonials{grid-template-columns:1fr}.contact-band{padding:28px;align-items:flex-start;flex-direction:column}.footer-grid{grid-template-columns:1fr;gap:28px}}
+@media(max-width:390px){.grid{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.hero-actions .btn{width:100%}.hero-points{display:grid;grid-template-columns:1fr 1fr}.estimate{align-items:flex-start;flex-direction:column}}
+
+/* NAVY DOMINANT THEME */
+body{background:#071b3a;color:#eaf3ff}
+.navbar{background:rgba(5,19,42,.96);border-bottom:1px solid #24466d}
+.brand{color:#fff}.nav-links{color:#d4e4f6}.nav-links a:hover{color:#8bd5ff}
+.menu-toggle{color:#fff}
+.hero{background:radial-gradient(circle at 82% 18%,#173f6c 0,transparent 34%),linear-gradient(120deg,#06152e,#0a2b52 65%,#171d48);color:#fff}
+.hero h1{color:#fff}.hero-copy{color:#c1d4e9}.hero-points{color:#d8e9fa}
+.eyebrow{background:#153c65;color:#9edcff}
+.btn-primary{background:#1675b9;color:#fff}.btn-primary:hover{background:#238fd5}
+.btn-light{background:#102f55;color:#eaf4ff;border-color:#315579}.btn-light:hover{background:#194675;border-color:#6bb8ed}
+.trust-strip{background:#041126;border-top:1px solid #24466d;border-bottom:1px solid #24466d}
+.section{background:#071b3a}.section.soft{background:#0a2345}
+.section-head h2,.service-card h3,.price-title h3,.step h3,.about-copy h2{color:#f4f8ff}
+.section-head p,.about-copy p{color:#b6c9df}
+.service-card,.price-wrap,.step,.quote,.faq-item,.booking-form{background:#102b4e;border-color:#294b70;color:#eaf3ff}
+.service-card:hover{border-color:#65b8ef;box-shadow:0 18px 45px #020b19aa}
+.service-icon,.avatar{background:#193f68;color:#8bd5ff}
+.service-card p,.step p,.quote p,.person small{color:#b7cbe1}
+.filter-btn{background:#102b4e;border-color:#315579;color:#c9d9eb}
+.filter-btn.active,.filter-btn:hover{background:#2185c7;border-color:#2185c7;color:#fff}
+.price-title{background:#17385e}.price-title span{color:#8bd5ff}
+.price-table th,.price-table td{border-color:#294765}.price-table th{color:#a9bfd7}.price-table td{color:#dbe9f8}.price-table td:last-child{color:#fff}
+.price-note,.hint{color:#a9bfd7}
+.booking-info{background:linear-gradient(145deg,#06152e,#123c68);border:1px solid #315579}
+.booking-form .field label{color:#e5f1ff}
+.field input,.field select,.field textarea{background:#081d38;border-color:#365779;color:#f3f8ff;color-scheme:dark}
+.field input::placeholder,.field textarea::placeholder{color:#849bb5}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:#63b9ef;box-shadow:0 0 0 3px #1b6b9a55}
+.estimate,.review-box{background:#17385e;border-color:#315579}
+.estimate span,.review-box p{color:#c2d7eb}.estimate strong,.review-box h4{color:#fff}
+.about-art{background:linear-gradient(140deg,#123d68,#25265d)}
+.about-art .basket{color:#91d9ff}
+.stars{color:#ffc45e}
+.contact-band{background:linear-gradient(110deg,#041126,#104b7c);border:1px solid #315579}
+.footer{background:#030d1e;border-top:1px solid #24466d}
+.wa-float{background:#19bd68}
+.toast{background:#0c3158}
+.faq-q{color:#fff}
+.faq-a{color:#c1d4e9}
+@media(max-width:700px){.nav-links{background:#081d38;border-color:#315579}.nav-links a{color:#e5f1ff}}
+/* Date and time controls: visible native picker affordance and full clickable area */
+#pickupDate,#pickupTime{min-height:48px;cursor:pointer;pointer-events:auto;position:relative;z-index:2;display:block;width:100%;color-scheme:dark}
+#pickupDate::-webkit-calendar-picker-indicator,#pickupTime::-webkit-calendar-picker-indicator{opacity:1;cursor:pointer;filter:invert(1);padding:4px}
+
+</style>
+</head>
+<body>
+<header class="navbar">
+ <div class="container nav-inner">
+  <a class="brand" href="#beranda"><span class="brand-mark"><i class="fa-solid fa-shirt"></i></span>Bersih<span style="color:#2784c4">.in</span></a>
+  <nav class="nav-links" id="navLinks">
+   <a href="#beranda">Beranda</a><a href="#layanan">Layanan</a><a href="#harga">Daftar Harga</a><a href="#cara">Cara Pemesanan</a><a href="#tentang">Tentang Kami</a><a href="#kontak">Kontak</a>
+  </nav>
+  <a class="btn btn-primary btn-small nav-cta" href="#pemesanan">Pesan Sekarang <i class="fa-solid fa-arrow-right"></i></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Buka menu"><i class="fa-solid fa-bars"></i></button>
+ </div>
+</header>
+<main>
+<section class="hero" id="beranda">
+ <div class="container hero-grid">
+  <div class="reveal">
+   <span class="eyebrow"><i class="fa-solid fa-sparkles"></i> Laundry care made easy</span>
+   <h1>Solusi Laundry Praktis, <span>Bersih,</span> dan Tanpa Ribet!</h1>
+   <p class="hero-copy">Serahkan urusan pakaian kotormu kepada Bersih.in. Kami hadir memberikan layanan laundry berkualitas dengan proses mudah, harga transparan, dan layanan antar-jemput langsung ke lokasi Anda.</p>
+   <div class="hero-actions"><a class="btn btn-primary" href="#pemesanan">Pesan Laundry Sekarang <i class="fa-brands fa-whatsapp"></i></a><a class="btn btn-light" href="#harga">Lihat Daftar Harga <i class="fa-solid fa-arrow-down"></i></a></div>
+   <div class="hero-points"><span><i class="fa-solid fa-circle-check"></i> Harga terjangkau</span><span><i class="fa-solid fa-circle-check"></i> Bersih dan wangi</span><span><i class="fa-solid fa-circle-check"></i> Antar jemput</span><span><i class="fa-solid fa-circle-check"></i> Praktis dan cepat</span></div>
+  </div>
+  <div class="hero-art reveal"><div class="laundry-visual"><div class="washer"><div class="washer-top"><span>BERSIH.IN</span><div class="washer-screen"></div><i class="fa-solid fa-power-off"></i></div><div class="washer-door"></div><div class="washer-base"></div></div></div><div class="float-card float-one"><i class="fa-solid fa-shirt"></i><span>Pakaian bersih<br>setiap hari</span></div><div class="float-card float-two"><i class="fa-solid fa-truck-fast"></i><span>Antar jemput<br>lebih praktis</span></div><span class="bubble b1"></span><span class="bubble b2"></span></div>
+ </div>
+</section>
+<div class="trust-strip"><div class="container trust-grid"><div class="trust-item"><i class="fa-solid fa-wallet"></i> Harga transparan</div><div class="trust-item"><i class="fa-solid fa-leaf"></i> Perawatan berkualitas</div><div class="trust-item"><i class="fa-solid fa-truck"></i> Antar jemput mudah</div><div class="trust-item"><i class="fa-solid fa-clock"></i> Pilihan layanan express</div></div></div>
+<section class="section" id="layanan"><div class="container">
+ <div class="section-head reveal"><span class="eyebrow">Layanan kami</span><h2>Perawatan lengkap untuk setiap kebutuhan</h2><p>Dari pakaian harian hingga barang kesayangan, pilih layanan yang paling sesuai.</p></div>
+ <div class="filter-row" id="serviceFilters"><button class="filter-btn active" data-filter="all">Semua</button><button class="filter-btn" data-filter="pakaian">Pakaian</button><button class="filter-btn" data-filter="rumah">Perlengkapan rumah</button><button class="filter-btn" data-filter="khusus">Perawatan khusus</button></div>
+ <div class="grid" id="serviceGrid">
+  <article class="service-card reveal" data-category="pakaian"><div class="service-icon"><i class="fa-solid fa-shirt"></i></div><h3>Cuci Kering Lipat</h3><p>Pakaian dicuci, dikeringkan, dan dilipat rapi.</p></article>
+  <article class="service-card reveal" data-category="pakaian"><div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div><h3>Cuci Kering Setrika</h3><p>Pakaian bersih, licin, dan siap langsung digunakan.</p></article>
+  <article class="service-card reveal" data-category="pakaian"><div class="service-icon"><i class="fa-solid fa-temperature-high"></i></div><h3>Setrika</h3><p>Rapikan pakaian dengan hasil setrika yang rapi.</p></article>
+  <article class="service-card reveal" data-category="pakaian"><div class="service-icon"><i class="fa-solid fa-soap"></i></div><h3>Cuci Basah & Kering Saja</h3><p>Pilih proses pencucian atau pengeringan sesuai kebutuhan.</p></article>
+  <article class="service-card reveal" data-category="rumah"><div class="service-icon"><i class="fa-solid fa-bed"></i></div><h3>Bedcover</h3><p>Bedcover kembali bersih dan nyaman digunakan.</p></article>
+ </div>
+</div></section>
+<section class="section soft" id="harga"><div class="container">
+ <div class="section-head reveal"><span class="eyebrow">Daftar harga</span><h2>Harga jelas, tanpa biaya tersembunyi</h2><p>Pilih kategori layanan untuk melihat rincian harga Bersih.in.</p></div>
+ <div class="filter-row" id="priceFilters"><button class="filter-btn active" data-price="all">Semua harga</button><button class="filter-btn" data-price="kiloan">Kiloan</button><button class="filter-btn" data-price="satuan">Satuan</button></div>
+ <div id="priceCatalog"></div><p class="price-note">* Minimal pemesanan layanan kiloan adalah 1 kg. Tarif satuan mengikuti harga per item, set, atau pasang.</p>
+</div></section>
+<section class="section" id="pemesanan"><div class="container">
+ <div class="section-head reveal"><span class="eyebrow">Pesan sekarang</span><h2>Jadwalkan penjemputan laundry</h2><p>Isi detail pesanan. Periksa kembali ringkasannya, lalu kirim melalui WhatsApp Bersih.in.</p></div>
+ <div class="booking-layout">
+  <aside class="booking-info reveal"><span class="eyebrow" style="background:#ffffff1c;color:#9edcff">Mudah dan praktis</span><h3>Laundry beres, waktumu lebih leluasa.</h3><p>Tim Bersih.in akan menerima detail pesananmu melalui WhatsApp untuk konfirmasi jadwal penjemputan.</p><ul><li><i class="fa-solid fa-check-circle"></i> Pilih layanan dan paket sesuai kebutuhan</li><li><i class="fa-solid fa-check-circle"></i> Estimasi biaya dihitung otomatis</li><li><i class="fa-solid fa-check-circle"></i> Jadwal penjemputan sesuai pilihanmu</li><li><i class="fa-brands fa-whatsapp"></i> Konfirmasi langsung melalui WhatsApp</li></ul></aside>
+  <form class="booking-form reveal" id="bookingForm">
+   <div class="form-grid">
+    <div class="field"><label for="customer">Nama pelanggan *</label><input id="customer" required placeholder="Nama lengkap"></div>
+    <div class="field"><label for="phone">Nomor WhatsApp *</label><input id="phone" type="tel" required placeholder="08xxxxxxxxxx"></div>
+    <div class="field full"><label for="address">Alamat lengkap penjemputan *</label><textarea id="address" required placeholder="Nama jalan, nomor rumah, RT/RW, patokan..."></textarea></div>
+    <div class="field"><label for="service">Layanan laundry *</label><select id="service" required><option value="">Pilih layanan</option></select></div>
+    <div class="field"><label for="package">Paket / ukuran *</label><select id="package" required disabled><option value="">Pilih layanan dahulu</option></select></div>
+    <div class="field"><label for="pickupDate">Tanggal penjemputan *</label><input id="pickupDate" type="date" required aria-label="Tanggal penjemputan"></div>
+    <div class="field"><label for="pickupTime">Jam penjemputan *</label><input id="pickupTime" type="time" required aria-label="Jam penjemputan"></div>
+    <div class="field full"><label for="notes">Catatan tambahan</label><textarea id="notes" placeholder="Contoh: pakaian dipisah, ada noda tertentu, patokan lokasi..."></textarea></div>
+   </div>
+   <div class="estimate"><span><i class="fa-solid fa-calculator"></i> Tarif layanan</span><strong id="estimate">Pilih layanan</strong></div>
+   <div class="review-box" id="reviewBox"><h4><i class="fa-solid fa-clipboard-check"></i> Periksa detail pesanan</h4><div id="reviewContent"></div></div>
+   <div class="form-actions"><button class="btn btn-light" type="button" id="reviewBtn"><i class="fa-solid fa-eye"></i> Periksa Pesanan</button><button class="btn btn-primary" type="submit"><i class="fa-brands fa-whatsapp"></i> Jadwalkan Penjemputan</button></div>
+   <p class="hint" style="margin-top:13px">* Estimasi belum termasuk biaya tambahan yang mungkin dikonfirmasi oleh admin. Pengiriman pesanan dilakukan melalui WhatsApp.</p>
+  </form>
+ </div>
+</div></section>
+<section class="section soft" id="cara"><div class="container"><div class="section-head reveal"><span class="eyebrow">Cara pemesanan</span><h2>Empat langkah, laundry langsung terjadwal</h2><p>Proses pemesanan dibuat sederhana agar kamu tidak perlu repot.</p></div><div class="steps">
+ <article class="step reveal"><div class="step-num">01</div><h3>Pilih Layanan</h3><p>Pilih jenis laundry sesuai kebutuhanmu.</p></article>
+ <article class="step reveal"><div class="step-num">02</div><h3>Isi Form Pemesanan</h3><p>Masukkan informasi pelanggan, alamat, dan jadwal penjemputan.</p></article>
+ <article class="step reveal"><div class="step-num">03</div><h3>Konfirmasi WhatsApp</h3><p>Detail pesanan dikirim langsung ke WhatsApp Bersih.in.</p></article>
+ <article class="step reveal"><div class="step-num">04</div><h3>Laundry Dijemput</h3><p>Tim Bersih.in mengonfirmasi pesanan dan mengatur penjemputan.</p></article>
+</div></div></section>
+<section class="section" id="tentang"><div class="container about-grid">
+ <div class="about-art reveal"><i class="fa-solid fa-basket-shopping basket"></i></div>
+ <div class="about-copy reveal"><span class="eyebrow">Tentang Bersih.in</span><h2>Pakaian Bersih, Hidup Lebih Nyaman.</h2><p>Bersih.in merupakan layanan laundry yang berkomitmen memberikan kemudahan kepada pelanggan dalam merawat pakaian dan barang pribadi. Kami mengutamakan kebersihan, kualitas pengerjaan, pelayanan ramah, serta harga yang transparan.</p><p>Dengan proses pemesanan yang mudah dan layanan antar-jemput, urusan laundry jadi lebih praktis sehingga kamu punya lebih banyak waktu untuk hal penting lainnya.</p><div class="about-points"><span><i class="fa-solid fa-circle-check"></i> Kualitas terjaga</span><span><i class="fa-solid fa-circle-check"></i> Pelayanan ramah</span><span><i class="fa-solid fa-circle-check"></i> Harga transparan</span><span><i class="fa-solid fa-circle-check"></i> Antar jemput</span></div></div>
+</div></section>
+<section class="section soft" id="kontak"><div class="container"><div class="contact-band reveal"><div><h2>Siap membuat laundry lebih praktis?</h2><p>Hubungi Bersih.in dan jadwalkan penjemputanmu hari ini.</p></div><a class="btn btn-light" href="https://wa.me/6285212995494" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Hubungi WhatsApp</a></div></div></section>
+</main>
+<footer class="footer"><div class="container"><div class="footer-grid">
+ <div><a class="brand" href="#beranda"><span class="brand-mark"><i class="fa-solid fa-shirt"></i></span>Bersih<span style="color:#75c8ff">.in</span></a><p>Pakaian Bersih, Hidup Lebih Nyaman. Solusi laundry praktis dengan harga transparan dan layanan antar-jemput.</p></div>
+ <div><h4>Navigasi</h4><div class="footer-links"><a href="#beranda">Beranda</a><a href="#layanan">Layanan</a><a href="#harga">Daftar Harga</a><a href="#cara">Cara Pemesanan</a><a href="#tentang">Tentang Kami</a></div></div>
+ <div><h4>Hubungi Kami</h4><div class="footer-contact"><span><i class="fa-brands fa-whatsapp"></i> 082249809991</span><span><i class="fa-solid fa-location-dot"></i> Perum Metland Cibitung, Cluster Taman Cikini Blok E2 No. 15.</span><span><i class="fa-solid fa-clock"></i> Jadwal penjemputan melalui konfirmasi WhatsApp</span></div></div>
+</div><div class="copyright">© <span id="year"></span> Bersih.in. All rights reserved.</div></div></footer>
+<a class="wa-float" href="https://wa.me/6285212995494?text=Halo%20Bersih.in%2C%20saya%20ingin%20bertanya%20tentang%20layanan%20laundry." target="_blank" rel="noopener" aria-label="Chat WhatsApp Bersih.in"><i class="fa-brands fa-whatsapp"></i></a>
+<div class="toast" id="toast"></div>
+<script>
+const WA_NUMBER='6285212995494';
+const priceData=[
+ {name:'Cuci Kering Lipat',group:'kiloan',unit:'kg',items:[['Reguler 3 hari',7000,'minimal 1 kg'],['Express 2 hari',8000,'minimal 1 kg'],['Express 1 hari',9000,'minimal 1 kg'],['Express kilat 12 jam',10000,'minimal 1 kg']]},
+ {name:'Cuci Kering Setrika',group:'kiloan',unit:'kg',items:[['Reguler 3 hari',8000,'minimal 1 kg'],['Express 2 hari',9000,'minimal 1 kg'],['Express 1 hari',10000,'minimal 1 kg'],['Express kilat 12 jam',12000,'minimal 1 kg']]},
+ {name:'Setrika',group:'kiloan',unit:'kg',items:[['Reguler 2 hari',6000,'minimal 1 kg'],['Express 1 hari',8000,'minimal 1 kg'],['Express kilat 12 jam',10000,'minimal 1 kg']]},
+ {name:'Cuci Basah & Kering Saja',group:'kiloan',unit:'kg',items:[['Cuci basah',5000,'minimal 1 kg'],['Kering saja',5000,'minimal 1 kg']]},
+ {name:'Bedcover',group:'satuan',unit:'pcs',items:[['Kecil',25000,''],['Sedang',30000,''],['Besar',35000,''],['Jumbo',45000,'']]},
+ {name:'Boneka',group:'satuan',unit:'pcs',items:[['Kecil',10000,''],['Sedang',15000,''],['Besar',20000,''],['Jumbo',50000,'']]},
+ {name:'Gorden',group:'kiloan',unit:'kg',items:[['Kecil',8000,''],['Sedang',10000,''],['Besar',15000,'']]},
+ {name:'Selimut',group:'satuan',unit:'pcs',items:[['Kecil',12000,''],['Sedang',15000,''],['Besar',25000,''],['Jumbo',35000,'']]},
+ {name:'Sprei',group:'satuan',unit:'set',items:[['Satu set',15000,''],['Rumbai satu set',20000,'']]},
+ {name:'Tas',group:'satuan',unit:'pcs',items:[['Kecil',20000,''],['Besar',30000,'']]},
+ {name:'Sepatu',group:'satuan',unit:'pasang',items:[['Sepatu anak',25000,''],['Dewasa',35000,'']]},
+ {name:'Laundry Satuan',group:'satuan',unit:'pcs',items:[['T-shirt',10000,''],['Celana',10000,''],['Kemeja',10000,''],['Jaket',20000,''],['Jas',20000,'']]},
+];
+const rupiah=n=>'Rp'+Number(n).toLocaleString('id-ID');
+const catalog=document.getElementById('priceCatalog');
+function renderPrices(filter='all'){
+ catalog.innerHTML='';
+ priceData.filter(d=>filter==='all'||d.group===filter).forEach(d=>{
+  const wrap=document.createElement('div');wrap.className='price-wrap reveal visible';
+  const rows=d.items.map(x=>`<tr><td>${x[0]}</td><td>${x[2]||'—'}</td><td>${rupiah(x[1])}/${d.unit}</td></tr>`).join('');
+  wrap.innerHTML=`<div class="price-title"><h3>${d.name}</h3><span>${d.group==='kiloan'?'LAYANAN KILOAN':d.group==='satuan'?'LAYANAN SATUAN':'TREATMENT'}</span></div><table class="price-table"><thead><tr><th>Paket / ukuran</th><th>Keterangan</th><th>Harga</th></tr></thead><tbody>${rows}</tbody></table>`;
+  catalog.appendChild(wrap);
+ });
+}
+renderPrices();
+document.querySelectorAll('[data-price]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-price]').forEach(x=>x.classList.remove('active'));b.classList.add('active');renderPrices(b.dataset.price)}));
+document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelectorAll('.service-card').forEach(c=>c.style.display=b.dataset.filter==='all'||c.dataset.category===b.dataset.filter?'flex':'none')}));
+const serviceSelect=document.getElementById('service'),packageSelect=document.getElementById('package'),estimate=document.getElementById('estimate');
+priceData.forEach(d=>serviceSelect.add(new Option(d.name,d.name)));
+function selectedData(){return priceData.find(d=>d.name===serviceSelect.value)}
+function updatePackages(){
+ const d=selectedData();packageSelect.innerHTML='';
+ if(!d){packageSelect.add(new Option('Pilih layanan dahulu',''));packageSelect.disabled=true;estimate.textContent='Pilih layanan';return}
+ packageSelect.disabled=false;packageSelect.add(new Option('Pilih paket / ukuran',''));
+ d.items.forEach((it,i)=>packageSelect.add(new Option(`${it[0]} — ${rupiah(it[1])}/${d.unit}`,String(i))));
+ updateEstimate();
+}
+function updateEstimate(){
+ const d=selectedData(),idx=packageSelect.value;
+ if(!d||idx===''){estimate.textContent='Pilih paket';return}
+ const item=d.items[Number(idx)];
+ estimate.textContent=`${rupiah(item[1])}/${d.unit}`;
+}
+serviceSelect.addEventListener('change',updatePackages);packageSelect.addEventListener('change',updateEstimate);
+document.querySelectorAll('[data-service]').forEach(btn=>btn.addEventListener('click',()=>{serviceSelect.value=btn.dataset.service;updatePackages();document.getElementById('pemesanan').scrollIntoView({behavior:'smooth'})}));
+const form=document.getElementById('bookingForm'),reviewBox=document.getElementById('reviewBox'),reviewContent=document.getElementById('reviewContent');
+function orderDetails(){
+ const d=selectedData(),it=d&&d.items[Number(packageSelect.value)];
+ return {name:document.getElementById('customer').value.trim(),phone:document.getElementById('phone').value.trim(),address:document.getElementById('address').value.trim(),service:d?.name||'',pack:it?it[0]:'',unit:d?.unit||'',date:document.getElementById('pickupDate').value,time:document.getElementById('pickupTime').value,notes:document.getElementById('notes').value.trim()||'-',price:it?it[1]:0,valid:!!(d&&it)};
+}
+function validateForm(){
+ if(!form.reportValidity())return false;
+ const o=orderDetails();
+ if(!o.valid){showToast('Silakan pilih layanan dan paket terlebih dahulu.');return false}
+ if(o.phone.replace(/\D/g,'').length<9){showToast('Masukkan nomor WhatsApp yang valid.');return false}
+ return true;
+}
+function showReview(){
+ if(!validateForm())return;
+ const o=orderDetails();
+ reviewContent.innerHTML=`<p><b>Nama:</b> ${escapeHtml(o.name)}</p><p><b>WhatsApp:</b> ${escapeHtml(o.phone)}</p><p><b>Alamat:</b> ${escapeHtml(o.address)}</p><p><b>Layanan:</b> ${escapeHtml(o.service)} — ${escapeHtml(o.pack)}</p><p><b>Penjemputan:</b> ${o.date} pukul ${o.time}</p><p><b>Catatan:</b> ${escapeHtml(o.notes)}</p><p><b>Tarif:</b> ${rupiah(o.price)}/${o.unit}</p>`;
+ reviewBox.classList.add('show');reviewBox.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+document.getElementById('reviewBtn').addEventListener('click',showReview);
+form.addEventListener('submit',e=>{
+ e.preventDefault();if(!validateForm())return;
+ const o=orderDetails();
+ const msg=`Halo Bersih.in, saya ingin melakukan pemesanan laundry.\n\nNama: ${o.name}\nNo. WhatsApp: ${o.phone}\nAlamat Penjemputan: ${o.address}\nLayanan: ${o.service}\nPaket: ${o.pack}\nTanggal Penjemputan: ${o.date}\nJam Penjemputan: ${o.time}\nCatatan: ${o.notes}\nTarif: ${rupiah(o.price)}/${o.unit}\n\nMohon konfirmasi untuk penjemputan laundry saya.\n\nTerima kasih.`;
+ const waUrl=`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
+ const waWindow=window.open(waUrl,'_blank');
+ if(!waWindow){window.location.href=waUrl;}
+});
+function showToast(t){const el=document.getElementById('toast');el.textContent=t;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),3000)}
+const today=new Date();document.getElementById('pickupDate').min=new Date(today.getTime()-today.getTimezoneOffset()*60000).toISOString().slice(0,10);
+document.getElementById('year').textContent=new Date().getFullYear();
+['pickupDate','pickupTime'].forEach(id=>{
+ const control=document.getElementById(id);
+ control.addEventListener('click',()=>{
+  if(typeof control.showPicker==='function'){try{control.showPicker()}catch(_e){}}
+ });
+});
+document.getElementById('menuToggle').addEventListener('click',()=>document.getElementById('navLinks').classList.toggle('open'));
+document.querySelectorAll('#navLinks a').forEach(a=>a.addEventListener('click',()=>document.getElementById('navLinks').classList.remove('open')));
+document.querySelectorAll('.faq-q').forEach(q=>q.addEventListener('click',()=>q.parentElement.classList.toggle('open')));
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>
